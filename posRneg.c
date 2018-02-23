@@ -2,24 +2,24 @@
 #include<conio.h>
 int main()
 {
-int n;
-printf("Enter the num:");
-scanf("%d",&n);
-if(n>0)
-{
-printf("The entered num is positive");
-}
-else if(n<0)
-{
-printf("The entered num is negative");
-}
-else if(n==0)
-{
-printf("The entered num is equal to 0");
-}
-else
-{
-printf("Invalid");
-}
-return 0;
+  int n;
+  printf("Enter the number:");
+  scanf("%d",&n);
+  if(n>0)
+  {
+    printf("The number is POSITIVE");
+  }
+  else if(n<0)
+  {
+    printf("The number is NEGATIVE");
+  }
+  else if(n==0)
+  {
+    printf("The number is ZERO");
+  }
+  else
+  {
+    printf("Invalid");
+  }
+  return 0;
 }
