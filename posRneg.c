@@ -13,9 +13,13 @@ else if(n<0)
 {
 printf("The entered num is negative");
 }
-else
+else if(n==0)
 {
 printf("The entered num is equal to 0");
+}
+else
+{
+printf("Invalid");
 }
 return 0;
 }
