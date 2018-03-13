@@ -8,5 +8,5 @@ for(i=1;i<=n;i++)
 {
 sum=sum+i;
 }
-printf("Sum of the natural number is :",sum);
+printf("Sum of the natural number is :%d",sum);
 }
