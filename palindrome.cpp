@@ -14,4 +14,10 @@ int main()
   }
   if(sum==a)
   {
-    cout<<"YES
+    cout<<"YES,it is Palindrome..";
+  }
+  else
+  {
+    cout<<"No,not a palindrome..";
+  }
+}
